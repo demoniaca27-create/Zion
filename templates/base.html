@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zion Market</title>
+    
+    <!-- LIGA O CSS ROXO -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <!-- LIGA O MANIFEST QUE VOCÊ CRIOU (FAZ SUMIR O ENDEREÇO) -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#a855f7">
+</head>
+<body>
+    <!-- CABEÇALHO ROXO COM SINO DE NOTIFICAÇÃO -->
+    <div class="header">
+        <div class="logo">ZION</div>
+        <div class="notif">
+            🔔<span>3</span>
+        </div>
+    </div>
+
+    <!-- AQUI ENTRA O CONTEÚDO DE CADA PÁGINA -->
+    {% block conteudo %}{% endblock %}
+
+    <!-- MENU DE BAIXO ESTILO APP -->
+    <div class="menu-bottom">
+        <div>🏠</div>
+        <div>🔍</div>
+        <div>💬</div>
+        <div>👤</div>
+    </div>
+</body>
+</html>

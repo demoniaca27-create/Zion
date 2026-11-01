@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block conteudo %}
+
+<h2>Anúncios Recentes</h2>
+
+{% for a in anuncios %}
+<div class="card">
+  <p>Jogo: {{ a.jogo }} | Preço: {{ a.preco }}</p>
+  <p>Vendedor: {{ a.dono }} | <span class="zion">{{ a.zion }}</span></p>
+</div>
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background: #0a0014;
+    color: white;
+    font-family: sans-serif;
+    padding-bottom: 70px;
+}
+
+.header {
+    background: linear-gradient(90deg, #a855f7, #7e22ce);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.notif {
+    position: relative;
+    font-size: 22px;
+}
+
+.notif span {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: red;
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #1a0a2e;
+    border-top: 1px solid #a855f7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+}
+
+.card {
+    background: #1a0a2e;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #a855f7;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Zion Market",
+  "short_name": "Zion",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0014",
+  "theme_color": "#a855f7",
+  "description": "Marketplace roxo Zion - Contas verificadas",
+  "icons": [
+    {
+      "src": "/static/img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
